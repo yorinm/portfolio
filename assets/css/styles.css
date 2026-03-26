@@ -302,6 +302,7 @@ nav ul li {
 }
 
 .skills .icon-card:hover {
+  transition-delay: 0ms !important; /* keep hover snappy (JS stagger delay otherwise affects hover) */
   transform: scale(1.12) translateZ(0);
   box-shadow:
     0 0 6px rgba(79, 103, 158, 0.45),
